@@ -1,0 +1,17 @@
+name: ${name}
+version: ${version}  
+main: ${package}.${name}
+# All above are required, all below here are optional.
+description: Place description here...
+load: STARTUP
+author: @author
+authors: []
+website: http://nowhere.com
+database: false
+depend: []
+prefix: ${name}
+softdepend: []
+loadbefore: []
+commands:
+permissions:
+        
