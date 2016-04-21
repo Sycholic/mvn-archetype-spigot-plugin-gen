@@ -1,10 +1,10 @@
-name: ${name}
+name: ${pluginpkgname}
 version: ${version}  
-main: ${package}.${name}
+main: ${topleveldomains}.${pluginpkgname}.${pluginClassName}
 # All above are required, all below here are optional.
 description: Place description here...
 load: STARTUP
-author: @author
+author: 
 authors: []
 website: http://nowhere.com
 database: false

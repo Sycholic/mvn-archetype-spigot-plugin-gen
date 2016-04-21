@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+    <id>mvn-archetype-spigot-plugin-gen</id>
     <requiredProperties>
-        <requiredProperty key="artifactId">
+        <requiredProperty key="pluginpkgname">
             <defaultValue>pluginpkgname</defaultValue>
         </requiredProperty>
-        <requiredProperty key="groupId">
+        <requiredProperty key="topleveldomains">
             <defaultValue>me.need.changing</defaultValue>
         </requiredProperty>
         <requiredProperty key="version">
             <defaultValue>1.0-SNAPSHOT</defaultValue>
         </requiredProperty>
-        <requiredProperty key="name">
+        <requiredProperty key="pluginClassName">
             <defaultValue>PluginMainClassName</defaultValue>
         </requiredProperty>
     </requiredProperties>
