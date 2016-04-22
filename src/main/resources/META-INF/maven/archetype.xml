@@ -2,22 +2,23 @@
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
     <id>mvn-archetype-spigot-plugin-gen</id>
     <requiredProperties>
-        <requiredProperty key="pluginpkgname">
+        <requiredProperty key="artifactId">
             <defaultValue>pluginpkgname</defaultValue>
         </requiredProperty>
-        <requiredProperty key="topleveldomains">
-            <defaultValue>me.need.changing</defaultValue>
+        <requiredProperty key="groupId">
+            <defaultValue>org.default</defaultValue>
         </requiredProperty>
         <requiredProperty key="version">
-            <defaultValue>1.0-SNAPSHOT</defaultValue>
+            <defaultValue>1.0.0</defaultValue>
         </requiredProperty>
-        <requiredProperty key="pluginClassName">
+        <requiredProperty key="pluginMainClass">
             <defaultValue>PluginMainClassName</defaultValue>
         </requiredProperty>
+        <requiredProperty key="
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
-            <directory>src/main/java</directory>
+            <directory>src/main/java/</directory>
             <includes>
                 <include>**/*.java</include>
             </includes>
