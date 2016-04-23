@@ -1,6 +1,6 @@
-name: ${PIartifactId}
-version: ${PIversion}  
-main: ${package}.${mainClass}
+name: ${artifactId}
+version: ${version}  
+main: ${package}.${artifactId}
 # All above are required, all below here are optional.
 description: Place description here...
 load: STARTUP
@@ -9,7 +9,7 @@ authors: []
 website: http://nowhere.com
 database: false
 depend: []
-prefix: ${PIartifactId}
+prefix: ${artifactId}
 softdepend: []
 loadbefore: []
 commands:

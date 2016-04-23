@@ -2,16 +2,14 @@
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
     <id>mvn-archetype-spigot-plugin-gen</id>
     <requiredProperties>
-        <requiredProperty key="PIartifactId">
-            <defaultValue>pluginpkgname</defaultValue>
+        <requiredProperty key="artifactId">
+            <defaultValue></defaultValue>
         </requiredProperty>
-        <requiredProperty key="PIgroupId">
-            <defaultValue>org.default</defaultValue>
+        <requiredProperty key="groupId">
+            <defaultValue></defaultValue>
         </requiredProperty>
-        <requiredProperty key="PIversion">
-            <defaultValue>1.0.0</defaultValue>
-        </requiredProperty>
-        <requiredProperty key="mainClass"/>
+        <requiredProperty key="version">
+            <defaultValue></defaultValue>
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
