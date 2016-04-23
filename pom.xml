@@ -16,7 +16,6 @@
     <developers>
         <developer>
             <name>Sycholic</name>
-            <email>c_chekay@yahoo.com</email>
         </developer>
     </developers>
     <scm>
@@ -25,16 +24,6 @@
         <url>https://github.com/sycholic/mvn-archetype-spigot-plugin-gen.git</url>
         <tag>HEAD</tag>
     </scm>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>http://localhost:8081/repository/mvn-archetype-spigot-plugin-gen/</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>http://localhost:8081/repository/mvn-archetype-spigot-plugin-gen/</url>
-        </repository>
-    </distributionManagement>
     <build>
         <extensions>
             <extension>

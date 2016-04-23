@@ -6,7 +6,7 @@
     <version>${PIversion}</version>
     
     <packaging>jar</packaging>
-    <name>${className}</name>
+    <name>${PIartifactId}</name>
     <url>http://change.me</url>
     
     <build>
