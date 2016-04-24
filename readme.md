@@ -4,9 +4,8 @@ git clone repo
 
 mvn install
 
-mvn -o archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes //
-                          -DarchetypeArtifactId=maven-archetype-simple //
-                          -DarchetypeCatalog=local
+mvn -o archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-simple -DarchetypeCatalog=local
+
     ## it will be listed manually till I find a way to deploy this @ maven's repo as 
     ## I coded this qualified for such
     ## No batch mode CLI yet.
