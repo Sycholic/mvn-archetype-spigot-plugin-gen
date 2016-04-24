@@ -4,7 +4,7 @@
      
     <groupId>org.sycholic</groupId>
     <artifactId>mvn-archetype-spigot-plugin-gen</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <licenses>
         <license>

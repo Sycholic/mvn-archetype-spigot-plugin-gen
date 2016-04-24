@@ -1,15 +1,16 @@
-<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
     <id>mvn-archetype-spigot-plugin-gen</id>
     <requiredProperties>
         <requiredProperty key="artifactId">
-            <defaultValue></defaultValue>
+            <defaultValue>artifactIdClass</defaultValue>
         </requiredProperty>
         <requiredProperty key="groupId">
-            <defaultValue></defaultValue>
+            <defaultValue>change.me</defaultValue>
         </requiredProperty>
         <requiredProperty key="version">
-            <defaultValue></defaultValue>
+            <defaultValue>1.0-SNAPSHOT</defaultValue>
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
