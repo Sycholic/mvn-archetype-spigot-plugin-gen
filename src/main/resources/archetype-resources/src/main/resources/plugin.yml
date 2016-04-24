@@ -1,0 +1,17 @@
+name: ${artifactId}
+version: ${version}  
+main: ${package}.${artifactId}
+# All above are required, all below here are optional.
+description: Place description here...
+load: STARTUP
+author: 
+authors: []
+website: http://nowhere.com
+database: false
+depend: []
+prefix: ${artifactId}
+softdepend: []
+loadbefore: []
+commands:
+permissions:
+        

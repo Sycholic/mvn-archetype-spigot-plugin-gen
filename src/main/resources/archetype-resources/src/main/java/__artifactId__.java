@@ -2,5 +2,5 @@ package ${package};
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class $ {MainPluginClass} extends JavaPlugin {
+public class ${artifactId} extends JavaPlugin {
 }

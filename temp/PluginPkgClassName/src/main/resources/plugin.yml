@@ -1,6 +1,6 @@
-name: ${pluginname}
-version: ${pluginversion}  
-main: ${package}.${MainPluginClass}
+name: PluginPkgClassName
+version: 1.0-SNAPSHOT  
+main: com.mcapi.pluginname.PluginPkgClassName
 # All above are required, all below here are optional.
 description: Place description here...
 load: STARTUP
@@ -9,7 +9,7 @@ authors: []
 website: http://nowhere.com
 database: false
 depend: []
-prefix: ${pluginname}
+prefix: PluginPkgClassName
 softdepend: []
 loadbefore: []
 commands:
