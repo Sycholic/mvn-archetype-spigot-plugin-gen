@@ -1,6 +1,6 @@
-name: ${artifactId}
-version: ${version}  
-main: ${package}.${artifactId}
+name: ${pluginname}
+version: ${pluginversion}  
+main: ${package}.${MainPluginClass}
 # All above are required, all below here are optional.
 description: Place description here...
 load: STARTUP
@@ -9,7 +9,7 @@ authors: []
 website: http://nowhere.com
 database: false
 depend: []
-prefix: ${artifactId}
+prefix: ${pluginname}
 softdepend: []
 loadbefore: []
 commands:

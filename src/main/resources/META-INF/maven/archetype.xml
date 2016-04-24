@@ -3,24 +3,31 @@
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
     <id>mvn-archetype-spigot-plugin-gen</id>
     <requiredProperties>
-        <requiredProperty key="artifactId">
-            <defaultValue>artifactIdClass</defaultValue>
+        <requiredProperty key="pluginname">
+            <defaultValue>artifactidclass</defaultValue>
         </requiredProperty>
-        <requiredProperty key="groupId">
+        
+        <requiredProperty key="plugin-tld-group">
             <defaultValue>change.me</defaultValue>
         </requiredProperty>
-        <requiredProperty key="version">
+        
+        <requiredProperty key="pluginversion">
             <defaultValue>1.0-SNAPSHOT</defaultValue>
+        </requiredProperty>
+        
+        <requiredProperty key="MainPluginClass">
+            <defaultValue>ChangeMeClassName</defaultValue>
+        </requiredProperty>
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true" encoding="UTF-8">
-            <directory>src/main/java/${package}</directory>
+            <directory>src/main/java</directory>
             <includes>
                 <include>**/*.java</include>
             </includes>
         </fileSet>
-        <fileSet filtered="true" encoding="UTF-8">
-            <directory>src/main/resources/${package}</directory>
+        <fileSet filtered="true" packaged="false" encoding="UTF-8">
+            <directory>src/main/resources</directory>
             <includes>
                 <include>**/*.yml</include>
             </includes>
