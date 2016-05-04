@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
      
@@ -6,28 +8,29 @@
     <artifactId>mvn-archetype-spigot-plugin-gen</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Archetype to create a starting maven supported spigot or bukkit plugin</description>
+    <url>https://github.com/Sycholic/mvn-archetype-spigot-plugin-gen</url>
     <licenses>
         <license>
             <name>Attribution-NonCommercial-ShareAlike 4.0 International</name>
             <url>http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</url>
             <distribution>repo</distribution>
         </license>
-    </licenses>
-    
+    </licenses>   
     <developers>
         <developer>
             <name>Sycholic</name>
+            <email>https://www.spigotmc.org/members/sycholic.40800/</email>
+            <id>Sycholic</id>
         </developer>
     </developers>
-    
     <scm>
         <connection>scm:git:git@github.com:sycholic/mvn-archetype-spigot-plugin-gen.git</connection>
         <developerConnection>scm:git:git@github.com:sycholic/mvn-archetype-spigot-plugin-gen.git</developerConnection>
-        <url>https://github.com/sycholic/mvn-archetype-spigot-plugin-gen.git</url>
+        <url>git@github.com/sycholic/mvn-archetype-spigot-plugin-gen.git</url>
         <tag>HEAD</tag>
     </scm>
-    
     <build>
         <extensions>
             <extension>
@@ -36,7 +39,6 @@
                 <version>2.4</version>
             </extension>
         </extensions>
-        
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -46,7 +48,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -58,8 +59,7 @@
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
                 </configuration>
-            </plugin>
-            
+            </plugin>     
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -67,8 +67,7 @@
                 <configuration>
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
-            </plugin>
-            
+            </plugin>          
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -134,7 +133,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 </project>
