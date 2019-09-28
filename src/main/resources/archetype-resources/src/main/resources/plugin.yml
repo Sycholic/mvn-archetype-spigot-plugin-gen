@@ -14,4 +14,6 @@ softdepend: []
 loadbefore: []
 commands:
 permissions:
+# API-Version only applies to 1.13 or 1.14 this disables backwards compatiblity measures pre-1.13 do not include api-version: tag
+api-version:
         
